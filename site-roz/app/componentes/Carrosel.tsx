@@ -1,15 +1,13 @@
 import { Carousel } from "@material-tailwind/react"
 import Image, { StaticImageData } from "next/image"
-import { Url } from "next/dist/shared/lib/router/router"
-
 
 interface CarroselProps{
     tamanho: string
-    imagem1?: Url
-    imagem2?: Url
-    imagem3?: Url
-    imagem4?: Url
-    imagem5?: Url
+    imagem1?: string
+    imagem2?: string
+    imagem3?: string
+    imagem4?: string
+    imagem5?: string
 }
 
 

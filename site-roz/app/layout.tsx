@@ -1,12 +1,31 @@
-import type { Metadata } from 'next'
-import { Inter, Bebas_Neue, Roboto} from 'next/font/google'
-//import { ThemeProvider } from "@material-tailwind/react";
 import './globals.css'
+import localFont from 'next/font/local'
+import type { Metadata } from 'next'
+import { Bebas_Neue, Roboto, Courier_Prime } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
-const roboto = Roboto({subsets: ['latin'],weight: '100'})
-const bebas_neue = Bebas_Neue({subsets: ['latin'], weight: '400', variable: '--font-Beba_neue'})
-// const druk = localFont({src: './Druk-Cond-Trial', variable: '--font-Druk' })
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: '100',
+  variable: '--font-roboto'
+})
+
+const bebas_neue = Bebas_Neue({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-bebas_neue'
+})
+
+const courier_prime = Courier_Prime({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-courier_prime'
+})
+
+const druk = localFont({
+  src: '../public/fonts/DrukCond-Super-Trial.otf',
+  variable: '--font-druk'
+})
 
 export const metadata: Metadata = {
   title: 'Roz produções',
@@ -20,10 +39,8 @@ export default function RootLayout({
 }) {
   return (
       <html lang="pt-br">
-          <body className= "text-zinc-950">{children}
+          <body className={`${bebas_neue.variable} ${roboto.variable} ${courier_prime.variable} ${druk.variable}`}>{children}
           </body>
-      </html>
-    
-    
+      </html>    
   )
 }

@@ -17,12 +17,13 @@ module.exports = withMt({
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily:{
-        'bebas_neue': ['Bebas Neue', 'sans-serif'],
-        'courier_prime': ['Courier Prime', 'monospace'],
+        'roboto': ['var(--font-roboto)'],
+        'bebas_neue': ['var(--font-bebas_neue)'],
+        'courier_prime': ['var(--font-courier_prime)'],
+        'druk': ['var(--font-druk)']
       }
     },
   },
   plugins: [],
 })
 
-// export default config

@@ -1,5 +1,3 @@
-import { Url } from 'next/dist/shared/lib/router/router'
-import Image from 'next/image'
 import { ReactNode } from 'react'
 
 interface Sessaoprops {
@@ -9,11 +7,11 @@ interface Sessaoprops {
   final?: boolean
 }
 
-export default function (props: Sessaoprops)  {
+export default function Sessao(props: Sessaoprops)  {
     return (
         <div className={` ${props.final ? 'bg-[#1335bd]' : 'bg-inherit' } `} >
           <div>
-            <div className="flex flex-row mt-52 justify-between">
+            <div className="flex flex-row mt-14 justify-between">
               <div className='flex flex-row justify-start items-start'>
 
                 <div className='flex flex-row'>
