@@ -20,11 +20,11 @@ export default function Home() {
           <div className=" flex flex-row -mt-10">
             <Image src={logo} alt="Logo Roz png" width={957} height={638} priority className="
               w-[27rem] h-[15rem] mt-12 -mr-28 z-10 -rotate-[20deg]"></Image>
-            <h1 className="text-black text-[12rem] font-druk font-black">PRODUZ</h1>
+            <h1 className="text-black text-[12rem]  font-druk font-black">PRODUZ</h1>
           </div>
             <pre className="text-gray-600 font-courier_prime text-2xl mt-[27rem] underline decoration-solid">ESTÚDIO CRIATIVO         RECIFE, 2023</pre>
         </div>
-        <div className=" w-[41rem] mr-20">
+        <div className=" lg:w-[41rem] mr-20">
           <Image src={vaso} alt="Vaso vidro mãos" width={895} height={995} className="fill"></Image>
         </div>
       </div>
@@ -63,7 +63,7 @@ export default function Home() {
                   <p className="font-courier_prime text-base z-20 ">Direção de arte, design e<br/> captação para o single da<br/> Ânima, banda recifense.</p>
                   <p className="font-courier_prime text-base z-20 mt-16">05/2023</p>
               </div>
-              <Carrosel tamanho=" h-[30rem] w-[50rem]" imagem1=" https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-5fba50e8-d043-41af-8650-e95514ec6231.png?e=webp&nll=true" imagem2="https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-778b127e-a2b7-4eab-a29f-735cbb57f0c1.png?e=webp&nll=true" imagem3="https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-691d6e04-f8f8-411d-88f1-2ffa513ea9c0.png?e=webp&nll=true" imagem4="https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-21e35814-b7cd-4773-8086-19e81553e6bc.png?e=webp&nll=true"></Carrosel>
+              <Carrosel tamanho=" h-[30rem] w-[50rem]" imagem1=" https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-5fba50e8-d043-41af-8650-e95514ec6231.png?e=webp&nll=true" imagem2="https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-778b127e-a2b7-4eab-a29f-735cbb57f0c1.png?e=webp&nll=true" imagem3="https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-691d6e04-f8f8-411d-88f1-2ffa513ea9c0.png?e=webp&nll=true" imagem4="https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-21e35814-b7cd-4773-8086-19e81553e6bc.png?e=webp&nll=true" imagem5={undefined}></Carrosel>
           </div>
         </Sessao>
 
@@ -90,7 +90,7 @@ export default function Home() {
         
         {/*ALGAZARRA - 4*/}
         <Sessao index='04' descricao='"VLA" - festival Viva La Algazara'>
-        <div className="flex flex-row mt-40 justify-center">
+        <div className="flex flex-row mt-28 justify-center">
             <div className="flex flex-col items-end mt-20">
                 <h1 className={`text-black text-8xl font-bebas_neue font-black
                 tracking-tight leading-tight underline decoration-solid z-10`}>
@@ -98,13 +98,13 @@ export default function Home() {
                 <p className=" font-courier_prime text-base mb-8 mr-8 text-justify">Design e direção artística<br/> para a segunda edição do<br/> festival Viva La Algazarra,<br/> que aconteceu em Recife.</p>
                 <p className=" font-courier_prime text-base mb-8 mr-8 text-justify ">06/2023</p>
             </div>
-            <Carrosel tamanho=" w-[35rem] h-[50rem]" imagem1={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-aba89e01-547f-401c-adf1-e6c02b9f63ac.jpg?h=1311&e=webp'} imagem2={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-c7584bd1-1fa3-4bf9-9b85-98486f7f53fd.jpg?h=1311&e=webp'} imagem3={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-a7db23ea-2476-4075-b277-2013e28ee027.jpg?h=1311&e=webp'} imagem4={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-bc3fc80d-b6b8-43f0-8e86-90c1fd75fb33.jpg?h=1311&e=webp'}></Carrosel>
+            <Carrosel tamanho=" w-[35rem] h-[50rem]" imagem1={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-aba89e01-547f-401c-adf1-e6c02b9f63ac.jpg?h=1311&e=webp'} imagem2={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-c7584bd1-1fa3-4bf9-9b85-98486f7f53fd.jpg?h=1311&e=webp'} imagem3={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-a7db23ea-2476-4075-b277-2013e28ee027.jpg?h=1311&e=webp'} imagem4={'https://d2kq0urxkarztv.cloudfront.net/651a2c9f20581300711d89bf/4431194/image-bc3fc80d-b6b8-43f0-8e86-90c1fd75fb33.jpg?h=1311&e=webp'} imagem5={undefined}></Carrosel>
           </div>
         </Sessao>
         
         {/*AMORIM - 5*/}
         <Sessao index='05' descricao='@amorimrafaela - Rafa Amorim'>
-          <div className="flex flex-row mt-32 mb-8 justify-center">
+          <div className="flex flex-row mt-28 mb-8 justify-center">
               <div className="flex flex-col items-end ">
                   <h1 className={`text-black text-8xl font-bebas_neue font-black tracking-tight leading-tight underline decoration-solid z-10`}>
                     @AMORIMRAFAELA</h1>
@@ -119,16 +119,14 @@ export default function Home() {
         
         {/*CONTATO - 6*/}
         <Sessao index='06' descricao='Contato' final >
-          <div>
-            <div className="flex flex-row justify-center items-center h-[94.5vh] ml-96">
-              <div className=" flex flex-row justify-end items-end">
+            <div className="flex flex-row justify-center items-center h-[94.5vh]">
+              <div className=" flex flex-row justify-center items-end">
                 <h1 className={`text-[#FF0000] text-[14rem] font-bebas_neue font-black ml-11
                 tracking-tight leading-none underline decoration-solid z-10  `}>
                   Vamos<br/>criar?</h1>
                   <p className="text-white font-courier_prime text-2xl w-[50rem] ml-8 mt-8 text-justify underline decoration-solid">envie sua proposta.<br/> <a href='mailto:rozproduz@gmail.com' target="_blank">rozproduz@gmail.com</a> / <a href={'https://www.instagram.com/rozproduz/'} target="_blank" >@rozproduz</a></p>               
               </div>
             </div>
-          </div>
         </Sessao>
 
     </div>

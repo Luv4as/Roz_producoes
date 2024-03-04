@@ -1,5 +1,6 @@
 import { Carousel } from "@material-tailwind/react"
 import Image, { StaticImageData } from "next/image"
+import vaso from '../../public/images/vaso.jpg'
 
 interface CarroselProps{
     tamanho: string
