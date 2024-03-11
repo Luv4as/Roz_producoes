@@ -9,10 +9,11 @@ interface CarroselProps{
     imagem3?: string
     imagem4?: string
     imagem5?: string
-}
+}  
 
 
 export default function Carrosel(props: CarroselProps) {
+
     return(
         <Carousel className={`rounded-xl ${props.tamanho}`}>
             <Image 
